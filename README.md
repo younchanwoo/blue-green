@@ -63,7 +63,7 @@ Green 환경:
 </html>
 ```
 ## 2. Nginx 설정 파일 작성
-HTML 설정 파일을 준비합니다.
+`conf.d`설정 파일을 준비합니다.
 
 ```
 ]# mkdir -p /conf.d
