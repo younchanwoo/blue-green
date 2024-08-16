@@ -31,6 +31,9 @@ Blue와 Green 환경에 필요한 디렉토리와 HTML 파일을 준비합니다
 
 Blue 환경:
 ```
+]# mkdir -p /tmp/blue
+]# vi index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,6 +51,9 @@ Blue 환경:
 
 Green 환경:
 ```
+]# mkdir -p /tmp/green
+]# vi index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
