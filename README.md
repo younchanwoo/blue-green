@@ -84,7 +84,7 @@ server {
 ```
 
 ## 3. Docker Compose 작성 후 실행
-docker-compose.yml 파일을 준비 후 실행을 합니다.
+`docker-compose.yml` 파일을 준비 후 실행을 합니다.
 
 ```
 ]# vi docker-compose.yml
