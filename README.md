@@ -63,10 +63,11 @@ Green 환경:
 </html>
 ```
 ## 2. Nginx 설정 파일 작성
-`conf.d`설정 파일을 준비합니다.
+설정 파일을 준비합니다.
 
 ```
 ]# mkdir -p /conf.d
+]# vi /conf.d/default.conf
 server {
     listen 80;
     server_name localhost;
