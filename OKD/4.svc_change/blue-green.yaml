@@ -1,0 +1,14 @@
+# tomcat-service.yaml (프록시 역할)
+apiVersion: v1
+kind: Service
+metadata:
+  name: tomcat-service
+  namespace: tomcat
+spec:
+  selector:
+    app: tomcat
+    version: blue  # 초기 상태에서는 블루 버전으로만 트래픽 전송
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
